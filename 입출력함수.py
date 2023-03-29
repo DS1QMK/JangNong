@@ -56,3 +56,24 @@ variable = """JangNong\nHello World"""
 print(variable)
 #\n Enter escape문자
 
+
+# 문자열 데이터 기본연산
+variable = "Hello" + " " + "World"
+print(variable)
+
+variable = "Hello" * 2
+print(variable)
+
+variable = len("Hello World")
+print(variable)
+
+variable = "Hello World"
+print(variable[3]) #앞에서 3번째 글짜 출력
+print(variable[-3]) #뒤에서 3번째 글짜 출력
+print(variable[1:4]) #1~4글짜 출력
+print(variable[:5]) #앞에서 5번째 글짜까지 출력
+print(variable[6:]) #앞에서 6번째 글짜부터 출력
+
+
+# 문자열 Formatting
+

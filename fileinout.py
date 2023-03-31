@@ -16,7 +16,7 @@ file.close
 # 이미 존재하는 파일에 데이터 추가하기
 file = open("test.txt", "a")
 for data in range(1, 11):
-    file.write(f'{data} line\n');
+    file.write(f'{data} line\n'); # 아래쪽으로 Enter를 누르듯 한줄씩 출력
 file.close()
 
 # 기록한 데이터 읽기 (전체 라인을 한번에 읽기)
@@ -36,4 +36,4 @@ file.close()
 with open("test.txt", "r") as file:
     data = file.read()
     print(data)
-
+# with as로 작성된 구문은 close를 하지 않아도 구분을 나오면 종료됨
